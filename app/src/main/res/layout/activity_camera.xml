@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".ui.CameraActivity">
+
+    <!--<TextView-->
+        <!--android:id="@+id/upload"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:text="UPLOAD"-->
+        <!--android:textColor="@color/colorAccent"-->
+        <!--android:textColorHighlight="@color/colorAccent"-->
+        <!--android:textSize="16dp" />-->
+
+    <ImageView
+        android:layout_width="66dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:src="@drawable/iconfinder" />
+
+    <ImageView
+        android:id="@+id/imagecapture"
+        android:layout_width="393dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="10dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="390dp"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="text"
+            android:textSize="15sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        >
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="390dp"
+            android:layout_height="34dp"
+            android:ems="10"
+            android:hint="Title"
+            android:inputType="text"
+            android:textSize="15sp" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        >
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="392dp"
+            android:layout_height="38dp"
+            android:ems="10"
+            android:hint="Description"
+            android:inputType="text"
+            android:textSize="15sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/Address"
+            android:layout_width="386dp"
+            android:layout_height="29dp"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="text"
+            android:textSize="15sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnCapture"
+        android:layout_width="322dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:text="CAPTURE IMAGE"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="322dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:text="UPLOAD"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+</LinearLayout>

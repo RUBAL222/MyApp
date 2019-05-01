@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "332808406523",
+    "firebase_url": "https://mobileapp-debc6.firebaseio.com",
+    "project_id": "mobileapp-debc6",
+    "storage_bucket": "mobileapp-debc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332808406523:android:173dde86257377e3",
+        "android_client_info": {
+          "package_name": "com.rubal.myapplication2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332808406523-06f4cf7o7piiing1161pn5il2fn4525a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rubal.myapplication2",
+            "certificate_hash": "c3f959c84b3b20b5aae2fe1dea3d49a352f6e296"
+          }
+        },
+        {
+          "client_id": "332808406523-qknrun0d087uqb075gt2jelo196nkhv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtIs190Ta9oT2_IL--UGImUIsVbWxgeIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332808406523-qknrun0d087uqb075gt2jelo196nkhv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
